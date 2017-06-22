@@ -3,3 +3,12 @@ section {
 	height: 100vh;
 	padding:  50px;
 }
+
+img {
+	width: 300px;
+	transition: opacity 1s ease-in-out;
+}
+
+img:hover {
+	opacity: .5;
+}
