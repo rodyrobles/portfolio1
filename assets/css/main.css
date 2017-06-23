@@ -12,3 +12,7 @@ img {
 img:hover {
 	opacity: .5;
 }
+
+.col-text {
+	column-count: 3;
+}
