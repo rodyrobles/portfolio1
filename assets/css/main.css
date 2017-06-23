@@ -5,7 +5,7 @@ section {
 }
 
 img {
-	width: 300px;
+	width: 350px;
 	transition: opacity 1s ease-in-out;
 }
 
@@ -16,3 +16,19 @@ img:hover {
 .col-text {
 	column-count: 3;
 }
+
+#contact {
+	margin-bottom: 2%;
+}
+
+#home {
+	background-image: url("../images/work1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.contenedor {
+	width: 100%;
+}
+

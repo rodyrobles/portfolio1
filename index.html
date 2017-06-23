@@ -10,23 +10,24 @@
     <title>Portfolio</title>
 </head>
 
-<body data-spy="scroll" data-target=".navbar">
-    <nav class="navbar navbar-inverse navbar-fixed-bottom">
-        <ul class="nav navbar-nav">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#work">What I do</a></li>
-            <li><a href="#about">What about me</a></li>
-            <li><a href="#contact">Contact me</a></li>
-        </ul>
-    </nav>
-    <section id="home" style="background: url(assets/images/work1.jpg); background-size: 100% 100%" class="text-center">
+<body>
+		 <nav class="container-fluid navbar navbar-inverse navbar-fixed-bottom">
+	        <ul class="nav navbar-nav">
+	            <li class="active"><a href="#home">Home</a></li>
+	            <li><a href="#work">What I do</a></li>
+	            <li><a href="#about">What about me</a></li>
+	            <li><a href="#contact">Contact me</a></li>
+	        </ul>
+	    </nav>
+    
+    <section id="home" class="contenedor text-center">
         <h1>My Portfolio</h1>
-        <p class="lead">Read About Me</p>
-        <button class="btn btn-default">Contact Me</button>
+        <p class="lead">Rodolfo Gutierrez Robles</p>
+        
     </section>
     <section id="work" class="container">
         <div class="page_header">
-            <h1 class="text-center">My Work</h1>
+            <h2 class="text-center">My Work</h2>
         </div>
         <img src="assets/images/work2.jpg" alt="" class="img-thumbnail">
         <img src="assets/images/work3.jpg" alt="" class="img-thumbnail">
@@ -34,7 +35,7 @@
         <img src="assets/images/work5.jpg" alt="" class="img-thumbnail">
     </section>
     <section id="about" class="container">
-    		<h1 class="text-center">About</h1>
+        <h2 class="text-center">About Me</h2>
         <div class="col-text">Proin convallis, lorem sed suscipit gravida, massa ante varius ex, ut dapibus nulla neque ac turpis. Aliquam sed fermentum sapien. Phasellus quis vulputate eros, in tincidunt urna. Proin sapien elit, finibus et sodales quis, feugiat in sapien. In vel nulla iaculis, gravida quam quis, vehicula augue. Nunc ac justo id risus malesuada commodo a eget dolor. Duis eu massa eu urna sollicitudin rutrum. Fusce maximus urna eget orci pellentesque tempor. Pellentesque dapibus dolor erat, imperdiet congue dolor porttitor quis. Donec suscipit convallis erat, auctor sollicitudin metus molestie in.
         </div>
         <br>
@@ -45,7 +46,6 @@
                     <h4>Web Designing</h4>
                     <div class="panel-body"></div>
                     <img src="assets/images/web-designing.png" class="img-circle center-block" alt="">
-                    
                     <div class="panel-footer"></div>
                 </div>
             </div>
@@ -55,11 +55,32 @@
                     <h4>Web Development</h4>
                     <div class="panel-body"></div>
                     <img src="assets/images/web-development.jpg" class="img-circle center-block" alt="">
-                    
                     <div class="panel-footer"></div>
                 </div>
             </div>
         </div>
+    </section>
+    <section class="contenedor" id="contact" style="background: silver">
+        <div class="page-header">
+            <h2 class="text-center">Contact Me</h2>
+        </div>
+        <form class="col-md-4 col-md-offset-4">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Insert your Name">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" placeholder="your Email">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Subject">
+            </div>
+            <div class="form-group">
+            	<textarea rows="10" class="form-control">Comments</textarea>
+            </div>
+            <div class="form-group">
+            	<input class="btn btn-success btn-block" type="submit">
+            </div>
+        </form>
     </section>
     <script src="assets/js/jquery-3.2.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
